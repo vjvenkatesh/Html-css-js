@@ -1,0 +1,154 @@
+/* body{
+    background-image: url('https://images.unsplash.com/photo-1595594597328-73be3ec405e1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=415&q=80');
+} */
+
+
+
+.container-1 , .container-2 ,.container-3 , .container-4, 
+.container-5{
+    /* border: 1px solid red; */
+    margin: 0 auto;
+    width: 75%;
+    text-align: center;
+}
+.flex-box-1 {
+     /* border: 2px solid black; */
+     padding: 5px;
+     display: flex;
+     justify-content: space-around;
+     flex-direction: row;
+}
+.flex-box-1 div{
+padding: 10px;
+/* border: 2px solid slateblue; */
+display: flex;
+align-items: center;
+}
+
+.space {
+    /* border: 1px solid black; */
+    width: 75%;
+    margin: 0 auto;
+    height: 5%;
+
+}
+/* .container-2{
+    border: 1px solid black;
+    width: 75%;
+    text-align: center;
+    margin:0 auto;
+} */
+.Text-2 {
+    /* border: 1px solid black; */
+    text-align: center;
+}
+
+.challenge-2-button{
+    padding: 10px;
+}
+.flex-cat{
+    display: flex;
+    /* border: 1px solid rgb(46, 1, 247); */
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+.flex-cat img{
+    /* border: 1px solid green; */
+    /* padding: 10px; */
+    margin-top: 10px;
+    box-shadow: -56px 62px 51px -28px rgba(0,0,0,0.92);
+    width: 150px;
+    height: 150px;
+
+}
+.flex-box-image {
+
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    /* border: 1px solid blueviolet; */
+    justify-content: space-around;
+    background-color: rgb(240, 231, 228);
+
+}
+.flex-box-image img:hover{
+   box-shadow: 0px 10px 50px rgba(37,50,233,1);
+}
+
+
+
+.flex-box-image img{
+    height: 200px;
+    width: 200px;
+    border-radius: 40px;
+    margin-top: 10px;
+
+}
+
+
+.button-container{
+    display: flex;
+    /* border: 1px solid black; */
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 10px;
+    
+}
+
+
+
+/*  card game design  */
+.flex-black-row-1 , .flex-box-row-2,.flex-box-row-3{
+    display: flex;
+    padding: 10px;
+    /* border: 1px solid black; */
+    justify-content: space-around;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.flex-black-row-1,.flex-box-row-2 {
+    /*background: url('https://ie2-gfebf.cdnppb.net/mexchangeblackjack/turbo/17/assets/gameView/tableBackground.png?v17'); */
+    background:url('https://img.freepik.com/premium-vector/poker-table-background-green-color_47243-1094.jpg?w=826');  
+    color: #ffffff;
+}
+.flex-black-row-1 div {
+    /* border: 1px solid black; */
+    padding: 10px;
+    height: 350px;
+    text-align: center;
+    flex: 1;
+}
+.flex-black-row-1 img{
+    padding: 10px;
+    width: 20%;
+   
+}
+.flex-box-row-2 button{
+    /* border: 1px solid black; */
+    padding: 10px;
+} 
+
+.flex-box-row-2 div{
+    /* border: 1px solid black; */
+    padding: 10px;
+}
+
+table ,th,td{
+    padding: 5px;
+    border: 1px solid rgb(90, 3, 252);
+}
+
+
+
+
+
+
+
+
+
+/* 
+-webkit-box-shadow: -56px 62px 51px -28px rgba(0,0,0,0.92);
+-moz-box-shadow: -56px 62px 51px -28px rgba(0,0,0,0.92);
+
+Copy Text */
